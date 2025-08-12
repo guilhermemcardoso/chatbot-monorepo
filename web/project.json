@@ -1,0 +1,23 @@
+{
+  "name": "web",
+  "root": "web",
+  "sourceRoot": "web/src",
+  "projectType": "application",
+  "targets": {
+    "serve": {
+      "executor": "@nx/next:server",
+      "options": {
+        "buildTarget": "web:build"
+      }
+    },
+    "build": {
+      "executor": "@nx/next:build",
+      "outputs": [
+        "{options.outputPath}"
+      ],
+      "options": {
+        "outputPath": "dist/apps/web"
+      }
+    }
+  }
+}
