@@ -16,8 +16,7 @@
   },
   "nxCloudId": "689b2cb3a4b3df4349549fa4",
   "projects": {
-    "api": "apps/api/project.json",
-    "web": "apps/web/project.json"
+    "api": "apps/api/project.json"
   },
   "plugins": [
     {

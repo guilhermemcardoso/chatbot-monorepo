@@ -3,8 +3,6 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build:web": "nx build web",
-    "start:web": "nx serve web",
     "build:api": "nx build api",
     "start:api": "nx serve api"
   },

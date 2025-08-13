@@ -57,9 +57,6 @@ out
 .env.local
 .env.*.local
 
-# Next.js build outputs
-web/.next
-
 # VSCode settings
 .vscode/
 
